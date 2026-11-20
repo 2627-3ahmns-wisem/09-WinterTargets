@@ -13,3 +13,6 @@ Das Paket **Unity UI (uGUI)** ist unter `Packages/manifest.json` als `com.unity.
 
 ## Unterricht
 Das vorhandene Spawning, der Score und der Sieg bei zehn Treffern sind **Ausgangscode**. Schüler:innen erweitern diese Mechaniken anhand der GitHub-Issues. Der Erstimport ist eine Ausgangsversion; keine Aufgaben sind vorweg implementiert.
+
+## E00 Documentation
+wenn man das Game startet führt es alle mindest Funktionen aus außer, dass das Crosshair nicht auf dem  Curser abgestimmt ist und man die Zielscheiben dadurch nicht shooten kann.
