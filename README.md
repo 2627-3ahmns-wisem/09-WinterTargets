@@ -21,3 +21,12 @@ wenn man das Game startet führt es alle mindest Funktionen aus außer, dass das
    
 2. Was bewirkt Destroy(gameObject, 2f)?
   Destroy(gameObject, 2f) löscht das aktuelle GameObject nach 2 Sekunden aus dem Spiel.
+
+## P03 – Ziele bewegen sich während ihrer Lebensdauer
+1. Weshalb wird Time.deltaTime verwendet?
+  
+   
+2. Was ist der Unterschied zwischen lokaler und globaler Position?
+  Globale Position (position): Gibt die Position eines Objekts in der gesamten Szene bzw. Welt an.
+  Lokale Position (localPosition): Gibt die Position eines Objekts relativ zu seinem übergeordneten Objekt an.
+   
