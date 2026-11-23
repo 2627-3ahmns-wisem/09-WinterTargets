@@ -16,3 +16,8 @@ Das vorhandene Spawning, der Score und der Sieg bei zehn Treffern sind **Ausgang
 
 ## E00 Documentation
 wenn man das Game startet führt es alle mindest Funktionen aus außer, dass das Crosshair nicht auf dem  Curser abgestimmt ist und man die Zielscheiben dadurch nicht shooten kann.
+1. Wie kommuniziert Target mit GameManager?
+  Das Script Target kommuniziert mit dem Script GameManager, indem es eine Referenz auf die GameManager-Komponente erstellt.
+   
+2. Was bewirkt Destroy(gameObject, 2f)?
+  Destroy(gameObject, 2f) löscht das aktuelle GameObject nach 2 Sekunden aus dem Spiel.
