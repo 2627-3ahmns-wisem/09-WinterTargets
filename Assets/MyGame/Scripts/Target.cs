@@ -3,6 +3,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     public GameManager gameManager;
+    public int points = 10;
     public float speed;
     private float direction;
     private bool isMoving = false;
@@ -13,9 +14,11 @@ public class Target : MonoBehaviour
     {
         //create a reference to the GameManager script
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        isMoving = Random.value < 0.3f;
+        isMoving = Random.value < 0.5f;
         speed = Random.Range(50f, 280f);
         direction = Random.value < 0.5f ? -1f : 1f;
+        
+
         Destroy(gameObject, 2f);
     }
 
@@ -45,7 +48,7 @@ public class Target : MonoBehaviour
     private void OnMouseDown()
     {
         //call the IncrementScore() method from the GameManager Script
-        gameManager.IncrementScore();
+        gameManager.IncrementScore(points);
         Destroy(gameObject);
     }
 }
