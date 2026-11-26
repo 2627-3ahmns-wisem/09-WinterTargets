@@ -24,7 +24,7 @@ wenn man das Game startet führt es alle mindest Funktionen aus außer, dass das
 
 ## P03 – Ziele bewegen sich während ihrer Lebensdauer
 1. Weshalb wird Time.deltaTime verwendet?
-  
+  Time.deltaTime gibt die Zeit an, die seit dem letzten Frame vergangen ist. Ohne Time.deltaTime könnte sich das Target auf schnelleren Computern schneller bewegen.
    
 2. Was ist der Unterschied zwischen lokaler und globaler Position?
   Globale Position (position): Gibt die Position eines Objekts in der gesamten Szene bzw. Welt an.
